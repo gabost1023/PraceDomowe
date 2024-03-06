@@ -11,6 +11,6 @@ else:
             break
 
 if czy_pierwsza:
-    print("Podana liczba jest liczbą pierwszą.")
+    print("Podana liczba jest liczbą pierwszą")
 else:
-    print("Podana liczba nie jest liczbą pierwszą.")
+    print("Podana liczba nie jest liczbą pierwszą")
