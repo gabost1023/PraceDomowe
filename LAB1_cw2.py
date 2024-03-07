@@ -1,6 +1,13 @@
-a = int(input('Podaje liczbe a: '))
-b = int(input('Podaj liczbe b: '))
-c = int(input('Podaj liczbe c: '))
+import sys as system
+
+system.stdout.write("Podaj a:")
+a = int(system.stdin.readline())
+system.stdout.write("Podaj b:")
+b = int(system.stdin.readline())
+system.stdout.write("Podaj c:")
+c = int(system.stdin.readline())
 wynik = pow(a, b) + c
-print('Wynik dzialania a^b +c: ', wynik)
+wynik = str(wynik)
+system.stdout.write(wynik)
+
 
