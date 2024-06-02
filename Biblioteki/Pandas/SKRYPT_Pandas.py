@@ -32,7 +32,6 @@ df.to_csv('plik.csv', index=False)
 
 #EXCEL – wymagana jest biblioteka openpyxl#
 #trzeba ją zainstalować
-
 xlsx = pd.ExcelFile('dane.xlsx')
 df = pd.read_excel(xlsx, header=0)
 print(df)
