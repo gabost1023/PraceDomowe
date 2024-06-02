@@ -92,38 +92,38 @@ import numpy as np
 
 a = np.array([20, 30, 40, 50]) #jak chcemy wykonywac dzialania to musza byc tej samej dlugosci
 b = np.arange(4)
-# print(a)
-# print(b)
-#
-# c = a - b
-# print(c)
-#
-# print(b**2)
-#
-# print(a)
-# a += b
-# print(a)
-# a -= b
-# print(a)
+print(a)
+print(b)
+
+c = a - b
+print(c)
+
+print(b**2)
+
+print(a)
+a += b
+print(a)
+a -= b
+print(a)
 
 
-# a = np.arange(3) #mniozenie macierzy - liczba wierszy z pierwszej musi sie zgadzac z liczba wierszy drugij
-# b = np.arange(3)
-# print(a)
-# print(b)
-# print(a.dot(b)) #dot mnozenie macierzy
-# print(np.dot(a,b))
-# c = np.array([[1,2,3],[4,5,6]])
-# d = np.array([[1,5], [2,6], [1,4]])
-# print(c)
-# print(d)
-# print(np.dot(c,d))
-#
-# a = np.arange(12).reshape((3,4))
-# print(a)
-# print(a.sum())
-# print(a.sum(axis=0))
-# print(a.min(axis=1))
+a = np.arange(3) #mniozenie macierzy - liczba wierszy z pierwszej musi sie zgadzac z liczba wierszy drugij
+b = np.arange(3)
+print(a)
+print(b)
+print(a.dot(b)) #dot mnozenie macierzy
+print(np.dot(a,b))
+c = np.array([[1,2,3],[4,5,6]])
+d = np.array([[1,5], [2,6], [1,4]])
+print(c)
+print(d)
+print(np.dot(c,d))
+
+a = np.arange(12).reshape((3,4))
+print(a)
+print(a.sum())
+print(a.sum(axis=0))
+print(a.min(axis=1))
 
 a = np.arange(6).reshape((3,2))
 print(a)
