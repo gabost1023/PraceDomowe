@@ -37,7 +37,7 @@ plt.plot(x,s,label="sin(x)")
 plt.xlabel('x')
 plt.ylabel('sin(x)')
 plt.title('Wykres sin(x)')
-plt.legend()
+plt.legend(loc='upper right')
 plt.show()
 
 data = {'a': np.arange(50), #50 elementow od 0 do 49
